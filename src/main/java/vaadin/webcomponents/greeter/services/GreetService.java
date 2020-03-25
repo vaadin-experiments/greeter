@@ -1,5 +1,7 @@
 package vaadin.webcomponents.greeter.services;
 
+import com.vaadin.flow.spring.annotation.SpringComponent;
+
 import org.springframework.stereotype.Service;
 
 import lombok.extern.log4j.Log4j2;
@@ -7,7 +9,7 @@ import lombok.extern.log4j.Log4j2;
 /**
  *	dummy service call 
  */
-@Service
+@SpringComponent
 @Log4j2
 public class GreetService {
 
